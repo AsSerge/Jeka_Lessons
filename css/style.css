@@ -1,5 +1,4 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 /*Обнуление*/
 * {
   padding: 0;
@@ -91,25 +90,13 @@ h6 {
 
 /*--------------------*/
 body {
-  margin: 10px;
+  margin: 30px;
 }
 
-.text_original {
-  font-size: 15px;
-  line-height: 20px;
+.block p {
+  color: #00ff40;
 }
 
-.text_original p {
-  margin: 0 0 20px 0;
-}
-
-.text {
-  font-family: 'PT Sans', sans-serif;
-  font-size: 15px;
-  line-height: 20px;
-  font-weight: 700;
-}
-
-.text p {
-  margin: 0 0 20px 0;
+.block p span {
+  font-size: 12px;
 }
